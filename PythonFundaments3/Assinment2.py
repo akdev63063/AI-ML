@@ -1,3 +1,14 @@
+"""
+Docstring for Python.PythonFundaments3.Assinment2
+Q2. Create a class Book with the following attributes:
+• title
+• author
+• list of reviews
+And add methods to:
+• add a new review
+• count reviews
+• display all reviews
+"""
 class Book:
     count = 0
     def __init__(self,title,author_name):

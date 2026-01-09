@@ -1,3 +1,7 @@
+"""Concept: Classes & Objects
+    Create a class with and 
+Q1 BankAccount attributes account_number owner_name balance
+methods deposit withdraw check Balance """
 class BankAccount:
     def __init__(self,Owner_name,Acc_no,Balance = 0):
         self.Owner_name = Owner_name
